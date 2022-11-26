@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokeInfo">
+<!--    - Nome;-->
+<!--    - Imagem;-->
+<!--    - Tipos;-->
+<!--    - Stats;-->
+<!--    - Habilidades;-->
+<!--    - Movimentos-->
+    <TextView
+        android:id="@+id/poke_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="Poke name"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/poke_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/poke_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Poke tipos" />
+    <TextView
+        android:id="@+id/poke_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Poke stats" />
+    <TextView
+        android:id="@+id/poke_habilidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Poke habilidades" />
+    <TextView
+        android:id="@+id/poke_movimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Poke movimentos" />
+</LinearLayout>
